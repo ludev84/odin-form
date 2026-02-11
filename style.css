@@ -101,3 +101,38 @@ label {
     padding-top: 2rem;
     padding-left: 2rem;
 }
+
+form {
+    box-shadow: 3px 3px 5px rgb(206, 206, 206);
+}
+
+input {
+    border: solid 1px #E5E7EB;
+
+}
+
+input:focus {
+    border: solid 1px blue;
+    box-shadow: 3px 3px 5px rgb(206, 206, 206);
+}
+
+input[type='password']:invalid {
+    border: solid 1px red;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 2.5rem;
+    border-radius: 7px;
+    margin-bottom: .6rem;
+}
+
+.cto p {
+    font-weight: 500;
+}
+
+.cto span {
+    color: #596D48;
+}
