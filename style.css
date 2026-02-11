@@ -8,21 +8,25 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
+}
+
+h1 {
+    font-weight: 500;
 }
 
 h1.norse {
     font-family: 'Norse', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     color: white;
 }
 
 .background {
+    position: relative;
     width: 35vw;
     height: 100vh;
     flex-shrink: 0;
-    position: relative;
 }
 
 .background_image {
@@ -46,4 +50,54 @@ h1.norse {
 
 .banner img {
     height: 100%;
+}
+
+.main {
+    background-color: #f9fafb;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.speach {
+    margin-top: 7rem;
+    padding-left: 2rem;
+}
+
+.speach h1{
+    margin: 0;
+}
+
+.speach + h1 {
+    padding-left: 2rem;
+    padding-bottom: 1.7rem;
+}
+
+#signup_form {
+    background-color: white;
+    padding: .1rem 2rem 2rem 2rem;
+}
+
+.form_control {
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+.form_row:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+label {
+    font-size: .75rem;
+    font-weight: 500;
+    padding-bottom: .1rem;
+}
+
+.cto {
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
