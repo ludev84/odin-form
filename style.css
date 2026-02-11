@@ -52,6 +52,21 @@ h1.norse {
     height: 100%;
 }
 
+.credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+a, .credit {
+    color: rgb(207, 207, 207);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
 .main {
     background-color: #f9fafb;
     width: 100%;
